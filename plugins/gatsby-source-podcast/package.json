@@ -1,0 +1,29 @@
+{
+  "name": "@arshad/gatsby-source-podcast",
+  "description": "Clone of gatsby-source-rss-feed with some customization to work with Podcast RSS feed",
+  "author": "arshad <arshad@chummun.com>",
+  "version": "1.0.1",
+  "main": "gatsby-node.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-source-plugin"
+  ],
+  "bugs": {
+    "url": "https://github.com/arshad/gatsby-themes/issues"
+  },
+  "homepage": "https://github.com/arshad/gatsby-themes",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arshad/gatsby-themes.git",
+    "directory": "plugins/gatsby-source-podcast"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "rss-parser": "^3.6.2"
+  }
+}
