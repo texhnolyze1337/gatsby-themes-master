@@ -1,0 +1,43 @@
+{
+  "name": "@arshad/gatsby-theme-podcast-core",
+  "description": "Adds support for podcast to Gatsby sites",
+  "author": "arshad <arshad@chummun.com>",
+  "version": "1.0.3",
+  "main": "index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-theme",
+    "portfolio"
+  ],
+  "bugs": {
+    "url": "https://github.com/arshad/gatsby-themes/issues"
+  },
+  "homepage": "https://github.com/arshad/gatsby-themes",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arshad/gatsby-themes.git",
+    "directory": "core/gatsby-theme-podcast-core"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.18.3",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "gatsby": "2.18.17",
+    "react": "16.12.0",
+    "react-dom": "16.12.0"
+  },
+  "dependencies": {
+    "@arshad/gatsby-source-podcast": "^1.0.1",
+    "@arshad/gatsby-theme-core": "^1.0.2",
+    "gatsby-awesome-pagination": "^0.3.5",
+    "gatsby-source-filesystem": "^2.1.39",
+    "is-relative-url": "^3.0.0"
+  }
+}

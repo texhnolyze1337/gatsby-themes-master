@@ -1,0 +1,50 @@
+{
+  "name": "@arshad/gatsby-theme-page-core",
+  "description": "A Gatsby theme that adds MDX page support.",
+  "author": "arshad <arshad@chummun.com>",
+  "version": "1.0.2",
+  "main": "index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-theme",
+    "page"
+  ],
+  "bugs": {
+    "url": "https://github.com/arshad/gatsby-themes/issues"
+  },
+  "homepage": "https://github.com/arshad/gatsby-themes",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arshad/gatsby-themes.git",
+    "directory": "core/gatsby-theme-page-core"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.18.3",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "gatsby": "2.18.17",
+    "react": "16.12.0",
+    "react-dom": "16.12.0"
+  },
+  "dependencies": {
+    "@arshad/gatsby-theme-core": "^1.0.2",
+    "@mdx-js/mdx": "^1.5.1",
+    "@mdx-js/react": "^1.5.1",
+    "gatsby-image": "^2.2.31",
+    "gatsby-plugin-mdx": "^1.0.56",
+    "gatsby-plugin-sharp": "^2.2.37",
+    "gatsby-remark-images": "^3.1.30",
+    "gatsby-remark-prismjs": "^3.3.22",
+    "gatsby-source-filesystem": "^2.1.36",
+    "gatsby-transformer-remark": "^2.6.34",
+    "gatsby-transformer-sharp": "^2.3.3",
+    "prismjs": "^1.17.1"
+  }
+}
