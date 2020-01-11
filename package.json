@@ -1,0 +1,44 @@
+{
+  "name": "@arshad/gatsby-themes",
+  "description": "A collection of free themes for Gatsby",
+  "author": "arshad <arshad@chummun.com>",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": [
+    "core/*",
+    "examples/*",
+    "plugins/*",
+    "starters/*",
+    "themes/*"
+  ],
+  "scripts": {
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "release": "lerna publish && npm run sync",
+    "sync": "npm run sync:starters && npm run sync:examples",
+    "sync:starters": "./scripts/sync.sh \"starters/*\"",
+    "sync:examples": "./scripts/sync.sh \"examples/*\"",
+    "starters:phoenix": "yarn workspace @arshad/gatsby-starter-phoenix",
+    "examples:phoenix": "yarn workspace @arshad/gatsby-example-phoenix"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "devDependencies": {
+    "husky": "3.1.0",
+    "lerna": "3.20.0",
+    "prettier": "1.19.1"
+  },
+  "dependencies": {
+    "@commitlint/cli": "8.2.0",
+    "@commitlint/config-conventional": "8.2.0"
+  }
+}
